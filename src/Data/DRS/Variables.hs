@@ -44,7 +44,7 @@ drsRefToDRSVar (LambdaDRSRef ((r,_),_)) = r
 drsRefToDRSVar (DRSRef r)               = r
 
 ---------------------------------------------------------------------------
--- | Converts a 'DRSRef' @r@ into a 'DRSVar'.
+-- | Converts a 'DRSRef' @r@ into a 'String'.
 ---------------------------------------------------------------------------
 drsRelToString :: DRSRel -> String
 drsRelToString (LambdaDRSRel ((r,_),_)) = r
